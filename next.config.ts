@@ -1,5 +1,4 @@
-const nextConfig: NextConfig = {
+const nextConfig = {
   output: 'export',
-  // Elimina basePath y assetPrefix
 };
 export default nextConfig;
