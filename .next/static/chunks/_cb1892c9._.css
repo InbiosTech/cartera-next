@@ -421,6 +421,14 @@ img, video {
   margin-top: 1.5rem;
 }
 
+.ml-2 {
+  margin-left: .5rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
 .block {
   display: block;
 }

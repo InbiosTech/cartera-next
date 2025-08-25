@@ -15,7 +15,7 @@ export default function Navbar() {
         </h2>
       </div>
       <button
-        className="md:hidden block text-white focus:outline-none"
+        className="md:hidden block text-white focus:outline-none ml-auto"
         onClick={() => setOpen(!open)}
         aria-label="Abrir menú"
       >
@@ -101,6 +101,25 @@ export default function Navbar() {
         </ul>
       )}
       <style jsx>{`
+        @media (max-width: 768px) {
+          nav {
+            flex-direction: row;
+            justify-content: flex-start;
+          }
+          .flex.items-center.gap-5 {
+            gap: 1rem;
+          }
+          img {
+            width: 2.5rem;
+            height: 2.5rem;
+          }
+          h2 {
+            font-size: 1.5rem;
+          }
+          button.md\:hidden {
+            margin-left: auto;
+          }
+        }
         @keyframes fade-in {
           from {
             opacity: 0;
