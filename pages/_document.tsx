@@ -1,15 +1,18 @@
 import { Html, Head, Main, NextScript } from 'next/document';
+import { DocumentProps } from 'next/document';
+import { DocumentContext } from 'next/document';
+import Document from 'next/document';
 
-export default function Document() {
-  return (
-    <Html lang="en">
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <body>
-        <Main />
-        <NextScript />
-      </body>
-    </Html>
-  );
+export default class MyDocument extends Document {
+  render() {
+    return (
+      <Html>
+        <Head />
+        <body>
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    );
+  }
 }

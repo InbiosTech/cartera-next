@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/laragon/www/cartera-next/pages/_app.tsx"],"sourcesContent":["import '../styles/globals.css';\r\n\r\nimport type { AppProps } from 'next/app';\r\n\r\nexport default function MyApp({ Component, pageProps }: AppProps) {\r\n  return <Component {...pageProps} />;\r\n}\r\n"],"names":[],"mappings":";;;;;;;AAIe,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAY;IAC9D,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACjC","debugId":null}}]
+}

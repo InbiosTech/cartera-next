@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/laragon/www/cartera-next/pages/index.tsx"],"sourcesContent":["export default function Home() {\r\n  return (\r\n    <main>\r\n      <h1>Next.js limpio</h1>\r\n      <p>Proyecto reiniciado y listo para trabajar.</p>\r\n    </main>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,qKAAC;;0BACC,qKAAC;0BAAG;;;;;;0BACJ,qKAAC;0BAAE;;;;;;;;;;;;AAGT","debugId":null}}]
+}

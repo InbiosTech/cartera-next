@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///C:/laragon/www/cartera-next/pages/_app.tsx"],"sourcesContent":["import '../styles/globals.css';\r\nimport 'aos/dist/aos.css';\r\nimport { useEffect } from 'react';\r\nimport AOS from 'aos';\r\nimport type { AppProps } from 'next/app';\r\n\r\nexport default function MyApp({ Component, pageProps }: AppProps) {\r\n  useEffect(() => {\r\n    AOS.init({\r\n      duration: 800,\r\n      easing: 'ease-in-out',\r\n      mirror: true,\r\n      anchorPlacement: 'top-bottom',\r\n    });\r\n    AOS.refresh();\r\n  }, []);\r\n  return <Component {...pageProps} />;\r\n}\r\n"],"names":[],"mappings":";;;;;AAEA;AACA;;;;;;AAGe,SAAS,MAAM,EAAE,SAAS,EAAE,SAAS,EAAY;IAC9D,IAAA,gHAAS,EAAC;QACR,0GAAG,CAAC,IAAI,CAAC;YACP,UAAU;YACV,QAAQ;YACR,QAAQ;YACR,iBAAiB;QACnB;QACA,0GAAG,CAAC,OAAO;IACb,GAAG,EAAE;IACL,qBAAO,qKAAC;QAAW,GAAG,SAAS;;;;;;AACjC","debugId":null}}]
+}
