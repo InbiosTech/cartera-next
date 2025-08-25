@@ -21,22 +21,22 @@ var __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$
 function Navbar() {
     const [open, setOpen] = (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react__$5b$external$5d$__$28$react$2c$__cjs$29$__["useState"])(false);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("nav", {
-        className: "jsx-d996a82852d7fd6c" + " " + "bg-gray-900 text-white dark:bg-gray-950 dark:text-gray-100 px-8 py-5 flex items-center justify-between shadow-lg",
+        className: "jsx-139e8ecfce3871bd" + " " + "bg-gray-900 text-white dark:bg-gray-950 dark:text-gray-100 px-4 py-5 flex items-center justify-between shadow-lg w-full overflow-x-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("div", {
-                className: "jsx-d996a82852d7fd6c" + " " + "flex items-center gap-5",
+                className: "jsx-139e8ecfce3871bd" + " " + "flex items-center gap-3 min-w-0",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("img", {
                         src: "/inbiostech-logo.svg",
                         alt: "InbiosTech Logo",
-                        className: "jsx-d996a82852d7fd6c" + " " + "w-16 h-16 drop-shadow-lg animate-spin-slow"
+                        className: "jsx-139e8ecfce3871bd" + " " + "w-12 h-12 drop-shadow-lg animate-spin-slow flex-shrink-0"
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
                         lineNumber: 8,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("h2", {
-                        className: "jsx-d996a82852d7fd6c" + " " + "text-3xl font-extrabold tracking-wide text-gradient bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-500 bg-clip-text text-transparent",
+                        className: "jsx-139e8ecfce3871bd" + " " + "text-2xl font-extrabold tracking-wide text-gradient bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-500 bg-clip-text text-transparent truncate",
                         children: "InbiosTech"
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
@@ -52,13 +52,16 @@ function Navbar() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("button", {
                 onClick: ()=>setOpen(!open),
                 "aria-label": "Abrir menú",
-                className: "jsx-d996a82852d7fd6c" + " " + "md:hidden block text-white focus:outline-none ml-auto",
+                style: {
+                    marginLeft: 'auto'
+                },
+                className: "jsx-139e8ecfce3871bd" + " " + "md:hidden block text-white focus:outline-none ml-auto",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("svg", {
                     width: "40",
                     height: "40",
                     fill: "none",
                     viewBox: "0 0 24 24",
-                    className: "jsx-d996a82852d7fd6c",
+                    className: "jsx-139e8ecfce3871bd",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("rect", {
                             y: "6",
@@ -66,10 +69,10 @@ function Navbar() {
                             height: "2",
                             rx: "1",
                             fill: "currentColor",
-                            className: "jsx-d996a82852d7fd6c"
+                            className: "jsx-139e8ecfce3871bd"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 23,
+                            lineNumber: 24,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("rect", {
@@ -78,10 +81,10 @@ function Navbar() {
                             height: "2",
                             rx: "1",
                             fill: "currentColor",
-                            className: "jsx-d996a82852d7fd6c"
+                            className: "jsx-139e8ecfce3871bd"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 24,
+                            lineNumber: 25,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("rect", {
@@ -90,16 +93,16 @@ function Navbar() {
                             height: "2",
                             rx: "1",
                             fill: "currentColor",
-                            className: "jsx-d996a82852d7fd6c"
+                            className: "jsx-139e8ecfce3871bd"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 25,
+                            lineNumber: 26,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Navbar.tsx",
-                    lineNumber: 22,
+                    lineNumber: 23,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
@@ -108,158 +111,158 @@ function Navbar() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
-                className: "jsx-d996a82852d7fd6c" + " " + "hidden md:flex gap-8 text-lg",
+                className: "jsx-139e8ecfce3871bd" + " " + "hidden md:flex gap-8 text-lg",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                        className: "jsx-d996a82852d7fd6c",
+                        className: "jsx-139e8ecfce3871bd",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                             href: "#servicios",
-                            className: "jsx-d996a82852d7fd6c" + " " + "hover:text-blue-400 dark:hover:text-blue-300 transition",
+                            className: "jsx-139e8ecfce3871bd" + " " + "hover:text-blue-400 dark:hover:text-blue-300 transition",
                             children: "Servicios"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 30,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 29,
+                        lineNumber: 30,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                        className: "jsx-d996a82852d7fd6c",
+                        className: "jsx-139e8ecfce3871bd",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                             href: "#portafolio",
-                            className: "jsx-d996a82852d7fd6c" + " " + "hover:text-blue-400 dark:hover:text-blue-300 transition",
+                            className: "jsx-139e8ecfce3871bd" + " " + "hover:text-blue-400 dark:hover:text-blue-300 transition",
                             children: "Portafolio"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 38,
+                            lineNumber: 39,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 37,
+                        lineNumber: 38,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                        className: "jsx-d996a82852d7fd6c",
+                        className: "jsx-139e8ecfce3871bd",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                             href: "#testimonios",
-                            className: "jsx-d996a82852d7fd6c" + " " + "hover:text-blue-400 dark:hover:text-blue-300 transition",
+                            className: "jsx-139e8ecfce3871bd" + " " + "hover:text-blue-400 dark:hover:text-blue-300 transition",
                             children: "Testimonios"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 46,
+                            lineNumber: 47,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 45,
+                        lineNumber: 46,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                        className: "jsx-d996a82852d7fd6c",
+                        className: "jsx-139e8ecfce3871bd",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                             href: "#contacto",
-                            className: "jsx-d996a82852d7fd6c" + " " + "hover:text-blue-400 dark:hover:text-blue-300 transition",
+                            className: "jsx-139e8ecfce3871bd" + " " + "hover:text-blue-400 dark:hover:text-blue-300 transition",
                             children: "Contacto"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 54,
+                            lineNumber: 55,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 53,
+                        lineNumber: 54,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Navbar.tsx",
-                lineNumber: 28,
+                lineNumber: 29,
                 columnNumber: 7
             }, this),
             open && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("ul", {
-                className: "jsx-d996a82852d7fd6c" + " " + "absolute top-20 left-0 w-full bg-gray-900 dark:bg-gray-950 text-white dark:text-gray-100 flex flex-col items-center gap-8 py-10 shadow-2xl z-50 animate-fade-in",
+                className: "jsx-139e8ecfce3871bd" + " " + "absolute top-20 left-0 w-full bg-gray-900 dark:bg-gray-950 text-white dark:text-gray-100 flex flex-col items-center gap-8 py-10 shadow-2xl z-50 animate-fade-in",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                        className: "jsx-d996a82852d7fd6c",
+                        className: "jsx-139e8ecfce3871bd",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                             href: "#servicios",
                             onClick: ()=>setOpen(false),
-                            className: "jsx-d996a82852d7fd6c" + " " + "hover:text-blue-400 dark:hover:text-blue-300 transition",
+                            className: "jsx-139e8ecfce3871bd" + " " + "hover:text-blue-400 dark:hover:text-blue-300 transition",
                             children: "Servicios"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 66,
+                            lineNumber: 67,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 65,
+                        lineNumber: 66,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                        className: "jsx-d996a82852d7fd6c",
+                        className: "jsx-139e8ecfce3871bd",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                             href: "#portafolio",
                             onClick: ()=>setOpen(false),
-                            className: "jsx-d996a82852d7fd6c" + " " + "hover:text-blue-400 dark:hover:text-blue-300 transition",
+                            className: "jsx-139e8ecfce3871bd" + " " + "hover:text-blue-400 dark:hover:text-blue-300 transition",
                             children: "Portafolio"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 75,
+                            lineNumber: 76,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 74,
+                        lineNumber: 75,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                        className: "jsx-d996a82852d7fd6c",
+                        className: "jsx-139e8ecfce3871bd",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                             href: "#testimonios",
                             onClick: ()=>setOpen(false),
-                            className: "jsx-d996a82852d7fd6c" + " " + "hover:text-blue-400 dark:hover:text-blue-300 transition",
+                            className: "jsx-139e8ecfce3871bd" + " " + "hover:text-blue-400 dark:hover:text-blue-300 transition",
                             children: "Testimonios"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 84,
+                            lineNumber: 85,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 83,
+                        lineNumber: 84,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("li", {
-                        className: "jsx-d996a82852d7fd6c",
+                        className: "jsx-139e8ecfce3871bd",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])("a", {
                             href: "#contacto",
                             onClick: ()=>setOpen(false),
-                            className: "jsx-d996a82852d7fd6c" + " " + "hover:text-blue-400 dark:hover:text-blue-300 transition",
+                            className: "jsx-139e8ecfce3871bd" + " " + "hover:text-blue-400 dark:hover:text-blue-300 transition",
                             children: "Contacto"
                         }, void 0, false, {
                             fileName: "[project]/components/Navbar.tsx",
-                            lineNumber: 93,
+                            lineNumber: 94,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.tsx",
-                        lineNumber: 92,
+                        lineNumber: 93,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/Navbar.tsx",
-                lineNumber: 64,
+                lineNumber: 65,
                 columnNumber: 9
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$externals$5d2f$react$2f$jsx$2d$dev$2d$runtime__$5b$external$5d$__$28$react$2f$jsx$2d$dev$2d$runtime$2c$__cjs$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$externals$5d2f$styled$2d$jsx$2f$style$2e$js__$5b$external$5d$__$28$styled$2d$jsx$2f$style$2e$js$2c$__cjs$29$__["default"], {
-                id: "d996a82852d7fd6c",
-                children: "@media (width<=768px){nav.jsx-d996a82852d7fd6c{flex-direction:row;justify-content:flex-start}.flex.items-center.gap-5.jsx-d996a82852d7fd6c{gap:1rem}img.jsx-d996a82852d7fd6c{width:2.5rem;height:2.5rem}h2.jsx-d996a82852d7fd6c{font-size:1.5rem}button.md\\:hidden.jsx-d996a82852d7fd6c{margin-left:auto}}@keyframes fade-in{0%{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}.animate-fade-in.jsx-d996a82852d7fd6c{animation:.3s fade-in}.animate-spin-slow.jsx-d996a82852d7fd6c{animation:6s linear infinite spin}@keyframes spin{to{transform:rotate(360deg)}}.text-gradient.jsx-d996a82852d7fd6c{-webkit-text-fill-color:transparent;background:linear-gradient(90deg,#3b82f6,#06b6d4,#a78bfa);-webkit-background-clip:text}"
+                id: "139e8ecfce3871bd",
+                children: "@media (width<=768px){nav.jsx-139e8ecfce3871bd{flex-direction:row;justify-content:flex-start;width:100vw;overflow-x:hidden}.flex.items-center.gap-3.jsx-139e8ecfce3871bd{gap:.75rem;min-width:0}img.jsx-139e8ecfce3871bd{flex-shrink:0;width:2.5rem;height:2.5rem}h2.jsx-139e8ecfce3871bd{white-space:nowrap;text-overflow:ellipsis;min-width:0;font-size:1.25rem;overflow:hidden}button.md\\:hidden.jsx-139e8ecfce3871bd{margin-left:auto}}@keyframes fade-in{0%{opacity:0;transform:translateY(-20px)}to{opacity:1;transform:translateY(0)}}.animate-fade-in.jsx-139e8ecfce3871bd{animation:.3s fade-in}.animate-spin-slow.jsx-139e8ecfce3871bd{animation:6s linear infinite spin}@keyframes spin{to{transform:rotate(360deg)}}.text-gradient.jsx-139e8ecfce3871bd{-webkit-text-fill-color:transparent;background:linear-gradient(90deg,#3b82f6,#06b6d4,#a78bfa);-webkit-background-clip:text}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {

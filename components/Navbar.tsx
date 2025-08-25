@@ -3,14 +3,14 @@ import React, { useState } from "react";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="bg-gray-900 text-white dark:bg-gray-950 dark:text-gray-100 px-8 py-5 flex items-center justify-between shadow-lg">
-      <div className="flex items-center gap-5">
+    <nav className="bg-gray-900 text-white dark:bg-gray-950 dark:text-gray-100 px-4 py-5 flex items-center justify-between shadow-lg w-full overflow-x-hidden">
+      <div className="flex items-center gap-3 min-w-0">
         <img
           src="/inbiostech-logo.svg"
           alt="InbiosTech Logo"
-          className="w-16 h-16 drop-shadow-lg animate-spin-slow"
+          className="w-12 h-12 drop-shadow-lg animate-spin-slow flex-shrink-0"
         />
-        <h2 className="text-3xl font-extrabold tracking-wide text-gradient bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-500 bg-clip-text text-transparent">
+        <h2 className="text-2xl font-extrabold tracking-wide text-gradient bg-gradient-to-r from-blue-400 via-cyan-400 to-purple-500 bg-clip-text text-transparent truncate">
           InbiosTech
         </h2>
       </div>
@@ -18,6 +18,7 @@ export default function Navbar() {
         className="md:hidden block text-white focus:outline-none ml-auto"
         onClick={() => setOpen(!open)}
         aria-label="Abrir menú"
+        style={{ marginLeft: 'auto' }}
       >
         <svg width="40" height="40" fill="none" viewBox="0 0 24 24">
           <rect y="6" width="24" height="2" rx="1" fill="currentColor" />
@@ -105,16 +106,24 @@ export default function Navbar() {
           nav {
             flex-direction: row;
             justify-content: flex-start;
+            width: 100vw;
+            overflow-x: hidden;
           }
-          .flex.items-center.gap-5 {
-            gap: 1rem;
+          .flex.items-center.gap-3 {
+            gap: 0.75rem;
+            min-width: 0;
           }
           img {
             width: 2.5rem;
             height: 2.5rem;
+            flex-shrink: 0;
           }
           h2 {
-            font-size: 1.5rem;
+            font-size: 1.25rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            min-width: 0;
           }
           button.md\:hidden {
             margin-left: auto;
