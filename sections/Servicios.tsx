@@ -15,13 +15,13 @@ const servicios = [
 
 export default function Servicios() {
   return (
-    <section id="servicios" className="py-20 bg-white text-gray-900">
+  <section id="servicios" className="py-20 bg-gray-900 text-white">
       <h2 className="text-4xl font-bold text-center mb-12">Servicios</h2>
       <div className="flex flex-wrap justify-center gap-8">
         {servicios.map((servicio, idx) => (
-          <div key={idx} className="w-80 p-8 bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 rounded-xl shadow-lg hover:scale-105 transition">
-            <h3 className="text-2xl font-semibold mb-4 text-blue-900">{servicio.titulo}</h3>
-            <p className="text-lg text-gray-700">{servicio.descripcion}</p>
+          <div key={idx} className="w-80 p-8 bg-gray-800 rounded-xl shadow-lg hover:scale-105 transition">
+            <h3 className="text-2xl font-semibold mb-4 text-white">{servicio.titulo}</h3>
+            <p className="text-lg text-gray-300">{servicio.descripcion}</p>
           </div>
         ))}
       </div>

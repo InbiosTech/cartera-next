@@ -18,14 +18,14 @@ const proyectos = [
 
 export default function Portafolio() {
   return (
-    <section id="portafolio" className="py-20 bg-gray-50">
+  <section id="portafolio" className="py-20 bg-black">
       <h2 className="text-4xl font-bold text-center mb-12">Portafolio</h2>
       <div className="flex flex-wrap justify-center gap-8">
         {proyectos.map((proyecto, idx) => (
-          <a key={idx} href={proyecto.url} className="w-80 p-8 bg-white rounded-xl shadow-lg hover:shadow-pink-400 hover:scale-105 transition block">
-            <h3 className="text-2xl font-semibold mb-4 text-purple-900">{proyecto.nombre}</h3>
-            <p className="text-lg text-gray-700 mb-2">{proyecto.descripcion}</p>
-            <span className="text-pink-600 font-bold">Ver proyecto</span>
+          <a key={idx} href={proyecto.url} className="w-80 p-8 bg-gray-900 rounded-xl shadow-lg hover:shadow-gray-700 hover:scale-105 transition block">
+            <h3 className="text-2xl font-semibold mb-4 text-white">{proyecto.nombre}</h3>
+            <p className="text-lg text-gray-300 mb-2">{proyecto.descripcion}</p>
+            <span className="text-gray-400 font-bold">Ver proyecto</span>
           </a>
         ))}
       </div>
