@@ -1,16 +1,15 @@
-
-import React from 'react';
-import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
-import Servicios from '../components/Servicios';
-import Portafolio from '../components/Portafolio';
-import Equipo from '../components/Equipo';
-import Testimonios from '../components/Testimonios';
-import Contacto from '../components/Contacto';
-import Footer from '../components/Footer';
-import WhatsAppButton from '../components/WhatsAppButton';
-import Loader from '../components/Loader';
-import FAQ from '../components/FAQ';
+import React from "react";
+import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
+import Servicios from "../components/Servicios";
+import Portafolio from "../components/Portafolio";
+import Equipo from "../components/Equipo";
+import Testimonios from "../components/Testimonios";
+import Contacto from "../components/Contacto";
+import Footer from "../components/Footer";
+import WhatsAppButton from "../components/WhatsAppButton";
+import Loader from "../components/Loader";
+import FAQ from "../components/FAQ";
 
 export default function Home() {
   const [loading, setLoading] = React.useState(true);
@@ -30,14 +29,11 @@ export default function Home() {
         <Equipo />
         <Testimonios />
         <Contacto />
-  <FAQ />
-  <Footer />
-  {/* Botón flotante de WhatsApp */}
-  <WhatsAppButton />
+        <FAQ />
+        <Footer />
+        {/* Botón flotante de WhatsApp */}
+        <WhatsAppButton />
       </main>
     </>
   );
 }
-
-
-
