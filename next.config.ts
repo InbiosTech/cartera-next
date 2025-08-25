@@ -1,9 +1,5 @@
-import type { NextConfig } from "next";
-
 const nextConfig: NextConfig = {
   output: 'export',
-  basePath: '/cartera-next',
-  assetPrefix: '/cartera-next/',
+  // Elimina basePath y assetPrefix
 };
-
 export default nextConfig;
